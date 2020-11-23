@@ -1,15 +1,3 @@
 // Write your code here!
-let element = document.createElement("div");
-let name = prompt("ur name?");
-element.innerHTML = "<h1> Hello, " + name + "</h1> <p> i may order a coffee today with cookies beside ..</p> <h3> thank you ! </h3>";
-document.body.appendChild(element);
-if(name === "hiba"){
-  let reply = prompt("i knew earlier that your fav color is purple huh?");
-  if(reply === "yes"){
-    document.body.style.backgroundColor = "purple";
-    document.body.style.color = "white";
-  }
-  else{
-    alert("okay i'll keep it the same then");
-  }
-}
+let main = document.querySelector("#main");
+main.remove();
