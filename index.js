@@ -6,5 +6,5 @@ document.body.appendChild(element);
 if(name === "hiba"){
   alert("i knew earlier that your fav color is purple huh?");
   document.body.style.backgroundColor = "purple";
-  document.body.style.color = "white";  
+  document.body.style.color = "white";
 }
