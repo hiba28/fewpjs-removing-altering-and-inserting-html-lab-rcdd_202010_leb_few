@@ -9,4 +9,7 @@ if(name === "hiba"){
     document.body.style.backgroundColor = "purple";
     document.body.style.color = "white";
   }
+  else{
+    alert("okay i'll keep it the same then");
+  }
 }
